@@ -6,6 +6,7 @@ public class sinbun {
 //본인신분증
 	static Scanner scanner = new Scanner(System.in);
 	static gongdong.receive noreceive = new gongdong.receive();
+	static nature nature = new nature();
 	
 	public void sinbun() {
 		// TODO Auto-generated method stub
@@ -16,7 +17,7 @@ public class sinbun {
 		
 		switch(firstsinbun) {
 		case 1 : //다음단계 진행
-			
+			nature.nature();
 		case 2 : //등기수령 불가
 			noreceive.receive();
 		}
