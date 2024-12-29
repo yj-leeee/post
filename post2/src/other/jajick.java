@@ -13,7 +13,7 @@ public class jajick {
 	public void jajick() {
 		// TODO Auto-generated method stub
 		System.out.println("재직증명서를 지참하셨습니까?");
-		System.out.println("네 : 1 \n 아니요 : 2");
+		System.out.println("네 : 1 \n아니요 : 2");
 		int family = scanner.nextInt();
 		scanner.nextLine();
 		
